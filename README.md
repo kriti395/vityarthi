@@ -54,22 +54,12 @@ python main.py
 * Action: Run `main.py` and enter the customer name and phone number.
 * Constraint Checked: Customer details input and validation.
 * Test Input:
-    * Name: `Rahul Sharma`
-    * Phone: `9876543210`
-<img width="467" height="443" alt="Screenshot 2026-09-29 222306" src="https://github.com/user-attachments/assets/e8db96d2-42d5-4635-a770-e63ec1dd6781" />
+    * Name: `Rahul`
+    * Phone: `9513574268`
 
+<img width="397" height="367" alt="image" src="https://github.com/user-attachments/assets/db0b4a41-c143-4065-8023-354a4845820f" />
 
-
-## Test Phase 2: Invalid Customer Name Check
-
-* Action: Enter a customer name containing numbers, such as `Rahul123`.
-* Constraint Checked: Customer name validation.
-* System Response: The system rejects the invalid name and displays an error message asking the user to enter a valid name.
-
-<img width="392" height="205" alt="image" src="https://github.com/user-attachments/assets/20060849-6127-424c-afb0-1a38a037944d" />
-
-
-## Test Phase 3: Food Menu Display
+## Test Phase 2: Food Menu Display
 
 * Action: Continue after entering valid customer details.
 * Constraint Checked: Food menu display.
@@ -79,7 +69,7 @@ python main.py
 
 
 
-## Test Phase 4: Order Entry
+## Test Phase 3: Order Entry
 
 * Action: Select a food item and enter the required quantity.
 * Constraint Checked: Food item selection and quantity input.
@@ -91,8 +81,7 @@ python main.py
 <img width="410" height="276" alt="image" src="https://github.com/user-attachments/assets/904f27af-a45f-4281-97cc-d6dc855061d6" />
 
 
-
-## Test Phase 5: Bill Calculation
+## Test Phase 4: Bill Calculation
 
 * Action: Complete the food order.
 * Constraint Checked: Item-wise amount and total bill calculation.
@@ -101,7 +90,7 @@ python main.py
 <img width="467" height="251" alt="image" src="https://github.com/user-attachments/assets/5afbfe3e-331e-4a00-a7d0-50de1eb28c16" />
 
 
-## Test Phase 6: Payment Processing
+## Test Phase 5: Payment Processing
 
 * Action: Select a payment method after calculating the bill.
 * Constraint Checked: Payment method selection.
@@ -112,7 +101,7 @@ python main.py
 <img width="436" height="260" alt="image" src="https://github.com/user-attachments/assets/ec2ff5b1-c437-4b9d-a73d-0e7dc473922f" />
 
 
-## Test Phase 7: Final Receipt Verification
+## Test Phase 6: Final Receipt Verification
 
 * Action: Complete the payment process.
 * Constraint Checked: Final receipt generation.
@@ -120,7 +109,7 @@ python main.py
 
 <img width="507" height="415" alt="image" src="https://github.com/user-attachments/assets/44e97e48-1a28-40b8-8f08-17fdcd594782" />
 
-## Test Phase 8: Add New Customer
+## Test Phase 7: Add New Customer
 
 * Action: After completing the order, select `Add New Customer`.
 * Constraint Checked: New customer flow.
@@ -130,7 +119,7 @@ python main.py
 <img width="421" height="282" alt="image" src="https://github.com/user-attachments/assets/362d7072-2186-4722-86f7-dd7677caa1c0" />
 
 
-## Test Phase 9: Invalid Main Menu Option
+## Test Phase 8: Invalid Main Menu Option
 
 * Action: Enter an option that does not exist in the main menu, such as `5`.
 * Constraint Checked: Main menu input validation.
@@ -140,7 +129,7 @@ python main.py
 <img width="432" height="230" alt="image" src="https://github.com/user-attachments/assets/2aaa344f-7438-4978-85b7-f6857d768478" />
 
 
-## Test Phase 10: Exit System
+## Test Phase 9: Exit System
 
 * Action: Select `Exit` from the main menu.
 * Constraint Checked: Program termination.
